@@ -14,5 +14,12 @@ int main() {
         getline(cin, residents[i]); // Read the surname using Getline
 }
 
+// Request three numbers of the apartments by the user
+for (int i = 0; i < 3; i++) {
+    int apartmentNumber;
+    cout << "Enter apartment number (1-10): ";
+    cin >> apartmentNumber;
+}
+
     return 0;
 }
